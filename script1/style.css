@@ -1,0 +1,84 @@
+html, body {
+    background-color:#59b0e8 !important;
+}
+.main-title {
+    font-family:'Shadows Into Light Two';
+    font-weight: 700;
+    color:#77ADD7;
+    text-align: center;
+}
+.main-img {
+    -webkit-box-shadow: 11px 10px 6px -6px rgba(0,0,0,0.05);
+    -moz-box-shadow: 11px 10px 6px -6px rgba(0,0,0,0.05);
+    box-shadow: 11px 10px 6px -6px rgba(0,0,0,0.05);
+    border:2px solid #cccccc;
+}
+.button-start {
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    padding:10px 30px;
+    font-size:30px;
+    background-color:#fde361;
+    color:black !important;
+    background-image: linear-gradient(to bottom, #fec85f 0%, #d18c05 100%);
+    border:1px solid #e49a0b;
+    font-weight:700;
+    text-transform: none;
+} 
+.button-start:hover, .button-start:active, .button-start:visited {
+    color:black !important;
+    background-image: linear-gradient(to bottom, #fde361 0%, #fde361 100%);
+}
+.button-start-mobile {
+    font-size:20px;
+}
+.button-quiz {
+    margin-bottom:20px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;
+    padding:15px;
+    font-size:18px;
+    line-height: 20px;
+    background-color:#fde361;
+    color:black !important;
+    background-image: linear-gradient(to bottom, #fec85f 0%, #d18c05 100%);
+    border:1px solid #e49a0b;
+    text-transform: none;
+} 
+.button-quiz:hover, .button-quiz:active, .button-quiz:visited {
+    color:black !important;
+    background-image: linear-gradient(to bottom, #fde361 0%, #fde361 100%);
+}
+.card-quiz {
+    border-radius: 10px;
+}
+.legal-footer {
+    color:white;
+    margin-top:20px;
+    text-align: center;
+    font-size:13px;
+}
+.legal-footer a {
+    color:white;
+}
+.button-hidden {
+    margin-bottom:0px;
+    transition: 0.5s;
+    height:0px;
+    background-size: 0% auto;
+    border-radius: 0px;
+    padding:0px;
+    font-size:0px;
+    background-color:#ffffff;
+    color:black !important;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    border:0px solid #ffffff;
+    text-transform: none;
+    color:white !important;
+} 
+.button-hidden:hover, .button-hidden:active, .button-hidden:visited {
+    color:black !important;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
